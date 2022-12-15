@@ -7,13 +7,14 @@ this["x"+i]=document.createElement("INPUT"); //this["x"+i] for dynamic variable
 this["x"+i].setAttribute("type","Number");
 this["x"+i].setAttribute("id",i);
 this["x"+i].setAttribute("placeholder","enter yout marks for Subject -> "+i)
-document.body.appendChild(this["x"+i]); //appending in body}
+document.body.appendChild(this["x"+i]); //appending in body
+}
 var calc=document.createElement("INPUT");
 calc.setAttribute("type","submit");
 calc.setAttribute("value","Calculate");
 calc.setAttribute("onclick","calc()");
 document.body.appendChild(calc);
-}}
+}
 function calc(){
 var ttl= document.querySelector("#totalsub").value;
 for (var j=1; j<=ttl;j++){
