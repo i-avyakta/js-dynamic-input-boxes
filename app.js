@@ -14,7 +14,7 @@ calc.setAttribute("type","submit");
 calc.setAttribute("value","Calculate");
 calc.setAttribute("onclick","calc()");
 document.body.appendChild(calc);
-}
+}}
 function calc(){
 var ttl= document.querySelector("#totalsub").value;
 for (var j=1; j<=ttl;j++){
