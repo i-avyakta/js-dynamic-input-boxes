@@ -3,8 +3,7 @@ var sum=0; //total percent
 function go(){
 var ttl= document.querySelector("#totalsub").value; //ttl=total no. of sub
 for (var i=1; i<=ttl;i++){
-this["x"+i]=document.createElement("INPUT"); //this["x"+i] for dynamic
-variable
+this["x"+i]=document.createElement("INPUT"); //this["x"+i] for dynamic variable
 this["x"+i].setAttribute("type","Number");
 this["x"+i].setAttribute("id",i);
 this["x"+i].setAttribute("placeholder","enter yout marks for Subject -> "+i)
